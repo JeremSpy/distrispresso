@@ -1,12 +1,16 @@
 .big
 {
-    margin: 5% auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
 }
 
 .small
 {
-    margin: 5% auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 40%;
 }
 
