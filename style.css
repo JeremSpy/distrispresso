@@ -1,13 +1,11 @@
 .big
 {
-    display: block;
     margin: 5% auto;
     width: 70%;
 }
 
 .small
 {
-    display: block;
     margin: 5% auto;
     width: 40%;
 }
