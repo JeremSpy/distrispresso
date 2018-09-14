@@ -1,0 +1,73 @@
+* {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+body {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 25px;
+}
+
+h1 {
+	color: #000000;
+	font-family: "Chelsea Market", Georgia, serif;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Chelsea Market", Georgia, serif;
+}
+
+h3 {
+	font-family: 'Cedarville Cursive', cursive, Georgia, serif;
+}
+
+ul {
+	list-style: none;	
+}
+
+.box1 {
+	background-color: #3A75B9;
+}
+
+.box2 {
+	background-color: #ECB9A8;
+}
+
+.box3 {
+	background-color: #854A86;
+}
+
+.box4 {
+	background-color: #7B7979;
+}
+
+.box5 {
+	background-color: #FFFF8C;
+}
+
+.box6 {
+	background-color: #4DAA92;
+}
+
+.box7 {
+	background-image: linear-gradient(#70B1D2, #DDDDFF);
+	/*background-image: radial-gradient(#70B1D2, #FFFFFF);*/
+}
+
+.copyright {
+	color: #000000;
+	font-size: small;
+	text-align: right;
+}
+
+.cursive {
+	color: #000000;
+	font-family: 'Cedarville Cursive', cursive, Georgia, serif;
+}
+
+.wayup {
+	color: #FFFFFF;
+	font-size: small;
+	text-align: right;
+}
