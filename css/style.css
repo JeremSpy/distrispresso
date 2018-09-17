@@ -3,6 +3,14 @@
 	color: #FFFFFF;
 }
 
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #CCCCCC;
+}
+
 body {
 	font-family: Georgia, Times New Roman, Times, serif;
 	font-size: 25px;
@@ -31,7 +39,7 @@ ul {
 }
 
 .box2 {
-	background-color: #ECB9A8;
+	background-color: #EEA2CE;
 }
 
 .box3 {
@@ -43,7 +51,7 @@ ul {
 }
 
 .box5 {
-	background-color: #FFFF8C;
+	background-color: #FFE500;
 }
 
 .box6 {
@@ -64,6 +72,26 @@ ul {
 .cursive {
 	color: #000000;
 	font-family: 'Cedarville Cursive', cursive, Georgia, serif;
+}
+
+.small {
+	color: #CCCCCC;
+	font-size: small;
+}
+
+.smaller {
+	color: #CCCCCC;
+	font-size: smaller;
+}
+
+.sticky a {
+	color: #000000;
+	
+}
+
+.sticky a:hover {
+	color: #70B1D2;
+	font-size: 30.5px;
 }
 
 .wayup {
