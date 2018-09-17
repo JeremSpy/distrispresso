@@ -246,9 +246,10 @@
 	<script src="jquery.hotkeys-0.7.9.min.js"></script>
 		<script>
 			var x = document.body;
-			x.addEventListener("keypress", someOtherFunction);
+			x.addEventListener("keypress", someOtherFunction, event);
 			function myFunction() {
 			console.log("xx");
+			console.log("event");
    			alert ("Hello World!");
 			}
 			function someOtherFunction() {
