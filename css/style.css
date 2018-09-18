@@ -39,7 +39,7 @@ ul {
 }
 
 .box2 {
-	background-color: #EEA2CE;
+	background-color: #000033;
 }
 
 .box3 {
@@ -51,11 +51,11 @@ ul {
 }
 
 .box5 {
-	background-color: #FFE500;
+	background-color: #DDE500;
 }
 
 .box6 {
-	background-color: #4DAA92;
+	background-color: #4DCC92;
 }
 
 .box7 {
@@ -72,6 +72,10 @@ ul {
 .cursive {
 	color: #000000;
 	font-family: 'Cedarville Cursive', cursive, Georgia, serif;
+}
+
+.nocss {
+	text-decoration: none;
 }
 
 .small {
