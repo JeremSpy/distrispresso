@@ -30,6 +30,10 @@ h3 {
 	font-family: 'Cedarville Cursive', cursive, Georgia, serif;
 }
 
+html {
+	zoom: 0.75; 
+}
+
 ul {
 	list-style: none;	
 }
