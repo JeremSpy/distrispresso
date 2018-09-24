@@ -103,7 +103,10 @@ ul {
 }
 
 .wayup {
-	color: #FFFFFF;
-	font-size: small;
 	text-align: right;
+}
+
+.wayup a {
+	color: rgba(255, 255, 255, 0);
+	font-size: small;
 }

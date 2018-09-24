@@ -23,9 +23,14 @@
 			<li class="nav-item">
 				<a id="presentation_lien" href="#presentation" class="nav-link active text-monospace">[ Présentation</a>
 			</li>
-			<li class="nav-item">
-				<a id="fonctions_lien"  href="#fonctions" class="nav-link active text-monospace">Fonctionnalités</a>
-			</li>
+  			<li class="nav-item dropdown">
+    			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#fonctions1" role="button" aria-haspopup="true" aria-expanded="false">Fonctionnalités</a>
+    				<div class="dropdown-menu">
+      					<a id="fonctions1_lien" class="dropdown-item" href="#fonctions1">Les capsules</a>
+      					<a id="fonctions2_lien" class="dropdown-item" href="#fonctions2">La tirelire</a>
+      					<a id="fonctions3_lien" class="dropdown-item" href="#fonctions3">Le Morpion</a>
+  					</div>
+  			</li>
 			<li class="nav-item">
 				<a id="conception_lien" href="#conception" class="nav-link active text-monospace">Conception</a>
 			</li>
@@ -37,6 +42,8 @@
 			</li>
 			<li class="nav-item">
 				<a id="conclusion_lien" href="#conclusion" class="nav-link active text-monospace">Mot de la fin ]</a>
+
+    			<a id="merci_lien" href="#merci"></a>
 			</li>
 		</ul>
 		<br>
@@ -47,6 +54,15 @@
 		<br>
 		<br>
 		<div class="span box1" id="presentation">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<br>
 		<br>
 		<br>
@@ -62,18 +78,28 @@
 			j'ai pensé faire un objet marriant les deux côtés<br>
 			pour les longues heures de code et de jeu à venir.<br>
 			</p>
-			<br> 
+			<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
             <p class="wayup"><a id="wayup_lien" href="#">Vers l'infini et.. le haut de la page surtout.</a></p>
 		<br>
 		</div>
-		<div class="span box2" id="fonctions">
-		<br>
-		<br>
+		<div class="span box2" id="fonctions1">
 		<br>
 		<br>
 			<h2>- 2 -<br><br>fonctionnalités</h2>
+			<br>
+			<h3>2.a / les capsules</h3>
 			<!-- C'est un distributeur, tirelire sur lequel on peut jouer ? -->
-			<br><br>
+			<br>
 			<p><img src="img/funcDistrib.png" alt="Capsules"></p>
 			<p>Le choix de la dose de café se fait par simple coulissement de la partie<br>
 			en plastique sur la façade avant, le système va pousser les capsules<br>
@@ -82,6 +108,8 @@
 			<p>La dose ainsi poussée tombera au fond du distributeur,<br>
 			ne reste plus qu'à la récupérer et déguster son café.</p>
 			<br>
+			<a href="#"></a>
+			<h3 id="fonctions2">2.b / la tirelire</h3>
 			<p><img src="img/funcSlot.png" alt="Rangements"></p>
 			<p>Un système de compartiment à pièce permettra de faire<br>
 			des réserves pour faire l'achat, soit de nouvelles "caps",<br>
@@ -92,6 +120,7 @@
 			remplacé toutes les obturations par des plus grandes pour<br>
 			pouvoir y insérer chacune des pièces 'euro' que l'on connaît.</p>
 			<br>
+			<h3 id="fonctions3">2.c / le morpion</h3>
 			<p><img src="img/funcGame.png" alt="Morpion"></p>
 			<br>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum consequatur hic ex facere ad laborum et sunt repudiandae quam dignissimos quibusdam, recusandae voluptatum dolorum pariatur autem nemo impedit eligendi dolore?</p>
@@ -172,6 +201,7 @@
             <ul>
                 <li>Daniel Mambrives - Directeur du RunFabLab</li>
                 <li>Thierry Gabet - Formateur, Fab Manager</li>
+                <li>Bertrand Barcaville - Forgeur Numérique</li>
             </ul>
         </p>
 		<br>
@@ -192,6 +222,11 @@
             </ul>
         </p>
 		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<h2>-</h2>
 		<br>
         <h3>Les quelques<br>
@@ -200,9 +235,9 @@
     	Promo #1 qui ont aidé</h3>
         <p>
             <ul>
-                <li>Dimitri Julie</li>
                 <li>Gérald Boca</li>
                 <li>Jonathan Tibère</li>
+                <li>Sylvie Leperlier</li>
                 <li>Teddy Clain</li>
                 <li>Yann Céleste</li>
             </ul>
@@ -269,7 +304,6 @@
     	<br>
     	<br>
     	<p class="copyright">* Images non contractuelles - &copy;2018, Jeremy Fontaine</p>
-    	<a id="merci_lien" href="#merci"></a>
     </div>
 	</container>
 
@@ -288,21 +322,27 @@
 	    				sectionSwitch("presentation_lien");
 	    			break;
 					case "2":
-	    				sectionSwitch("fonctions_lien");
+	    				sectionSwitch("fonctions1_lien");
 	    			break;
 					case "3":
-	    				sectionSwitch("conception_lien");
+	    				sectionSwitch("fonctions2_lien");
 	    			break;
 					case "4":
-	    				sectionSwitch("problemes_lien");
+	    				sectionSwitch("fonctions3_lien");
 	    			break;
 					case "5":
-	    				sectionSwitch("test_lien");
+	    				sectionSwitch("conception_lien");
 	    			break;
 					case "6":
-	    				sectionSwitch("conclusion_lien");
+	    				sectionSwitch("problemes_lien");
 	    			break;
 					case "7":
+	    				sectionSwitch("test_lien");
+	    			break;
+					case "8":
+	    				sectionSwitch("conclusion_lien");
+	    			break;
+					case "9":
 	    				sectionSwitch("merci_lien");
 	    			break;
 					default:
