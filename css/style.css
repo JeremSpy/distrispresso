@@ -12,6 +12,8 @@ a:hover {
 }
 
 body {
+    /*cursor: url(https://i.postimg.cc/BQpnzk0J/cursor.png) 32 26, auto;
+    cursor: -webkit-image-set(url(https://i.postimg.cc/BQpnzk0J/cursor.png) 1x,url(https://i.postimg.cc/BQpnzk0J/cursor.png) 2x) 32 26, auto;*/
 	font-family: Georgia, Times New Roman, Times, serif;
 	font-size: 25px;
 }

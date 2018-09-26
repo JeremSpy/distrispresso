@@ -24,7 +24,7 @@
 				<a id="presentation_lien" href="#presentation" class="nav-link active text-monospace">[ Présentation</a>
 			</li>
   			<li class="nav-item dropdown">
-    			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#fonctions1" role="button" aria-haspopup="true" aria-expanded="false">Fonctionnalités</a>
+    			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Fonctionnalités</a>
     				<div class="dropdown-menu">
       					<a id="fonctions1_lien" class="dropdown-item" href="#fonctions1">Les capsules</a>
       					<a id="fonctions2_lien" class="dropdown-item" href="#fonctions2">La tirelire</a>
@@ -48,8 +48,11 @@
 		</ul>
 		<br>
 		<div class="small">Le site dispose de ses raccourcis :<br>
-			1 pour Présentation, 2 pour Fonctionnalités, et cetera.<br>
-			<p class="small2">Petit bonus : 0 pour se rendre sur le haut de la page.</p></div>
+			1 pour Présentation, 2 pour Fonctionnalités (part. 1),<br>
+			3 pour Fonctionnalités (part. 2), 4 pour Fonctionnalités (part. 3)<br>
+			5 pour Conception, 6 pour Problèmes, 7 pour Test, 8 pour Mot de la fin.<br>
+			<p class="small2">Petit bonus : 0 pour se rendre sur le haut de la page,<br>
+			9 pour lire les remerciements.</p></div>
 		<br>
 		<br>
 		<br>
@@ -109,7 +112,12 @@
 			ne reste plus qu'à la récupérer et déguster son café.</p>
 			<br>
 			<a href="#"></a>
-			<h3 id="fonctions2">2.b / la tirelire</h3>
+		</div>
+		<div class="span box2" id="fonctions2">
+			<br>
+			<br>
+			<br>
+			<h3>2.b / la tirelire</h3>
 			<p><img src="img/funcSlot.png" alt="Rangements"></p>
 			<p>Un système de compartiment à pièce permettra de faire<br>
 			des réserves pour faire l'achat, soit de nouvelles "caps",<br>
@@ -120,7 +128,12 @@
 			remplacé toutes les obturations par des plus grandes pour<br>
 			pouvoir y insérer chacune des pièces 'euro' que l'on connaît.</p>
 			<br>
-			<h3 id="fonctions3">2.c / le morpion</h3>
+			</div>
+			<div class="span box2" id="fonctions3">
+			<br>
+			<br>
+			<br>
+			<h3>2.c / le morpion</h3>
 			<p><img src="img/funcGame.png" alt="Morpion"></p>
 			<br>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum consequatur hic ex facere ad laborum et sunt repudiandae quam dignissimos quibusdam, recusandae voluptatum dolorum pariatur autem nemo impedit eligendi dolore?</p>
@@ -245,21 +258,12 @@
             <h3>Sans oublier</h3>
             <ul>
             	<li>Anaïs Jan</li>
-                <li>
-                	<a href="https://codepen.io/Hero1Andrew/pen/OoPOVR">Andrew de CodePen</a>
-                </li>
             	<li>
             		<a href="https://www.contrepoints.org/2016/10/16/143225-qui-a-cree-internet-etat-bell-al-gore">BBN et Bell Labs</a>
             	</li>
             	<li>
             		<a href="">Bootstrap</a>
             	</li>
-            	<li>
-            		<a href="https://codepen.io">CodePen</a>
-            	</li>
-                <li>
-                	<a href="">Font Awesome</a>
-                </li>
                 <li>
                 	<a href="https://www.google.fr/">Google</a>
                 </li>
@@ -276,6 +280,7 @@
     <br>
     <div>
 		<br>
+            <p class="waydown"><a id="waydown_lien" href="#waydown">Vers l'infini et.. le haut de la page surtout.</a></p>
 		<br>
 		<ul class="nav nav-pills nav-fill">
 			<li class="nav-item">
@@ -303,7 +308,7 @@
     	<br>
     	<br>
     	<br>
-    	<p class="copyright">* Images non contractuelles - &copy;2018, Jeremy Fontaine</p>
+    	<p class="copyright" id="waydown">* Images non contractuelles - &copy;2018, Jeremy Fontaine</p>
     </div>
 	</container>
 
@@ -344,6 +349,9 @@
 	    			break;
 					case "9":
 	    				sectionSwitch("merci_lien");
+	    			break;
+					case ".":
+	    				sectionSwitch("waydown_lien");
 	    			break;
 					default:
 				}
